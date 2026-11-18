@@ -63,3 +63,18 @@ Con el tiempo, el proyecto evolucionó hacia **AQUABOT MAX ECOSYSTEM**, una plat
 - y apoyo para la observación y toma de decisiones en lagunas.
 
 En su etapa actual, AQUABOT se fortalece con un enfoque de ecosistema más robusto, incorporando evidencia de campo, reportes visuales, plataformas digitales y la integración de tecnologías como **Google Earth Engine, OpenStreetMap, Google Cloud** y análisis ambiental basado en satélites.
+
+
+---
+
+## 📚 Technical Documentation | Documentación técnica
+
+Explore the technological evolution and system architecture of AQUABOT MAX ECOSYSTEM.
+
+Consulta la evolución tecnológica y la arquitectura del sistema AQUABOT MAX ECOSYSTEM.
+
+| Document / Documento | Description / Descripción |
+|---|---|
+| [Technology Evolution 2025–2026](TECHNOLOGY_EVOLUTION_2025_2026.md) | Historical development, documented capabilities and comparison framework / Desarrollo histórico, capacidades documentadas y marco comparativo |
+| [System Architecture / Arquitectura del Sistema](SYSTEM_ARCHITECTURE.md) | IoT monitoring, satellite resources, geospatial processing, analytics and environmental reporting / Monitoreo IoT, recursos satelitales, procesamiento geoespacial, analítica e informes ambientales |
+
