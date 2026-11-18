@@ -26,7 +26,9 @@ Su arquitectura permite recopilar, procesar, visualizar e interpretar informaci�
 
 ## 2. General Architecture | Arquitectura general
 
-```mermaid
+![AQUABOT MAX ECOSYSTEM — System Architecture / Arquitectura del Sistema](system-architecture.png)
+
+```text
 flowchart TD
     A["AQUABOT IoT Stations / Estaciones IoT"]
     B["Water Quality Sensors / Sensores fisicoquímicos"]
