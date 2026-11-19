@@ -101,6 +101,15 @@ Los registros permiten caracterizar los cambios temporales de los parámetros de
 ---
 
 
+#### NISAR Radar — L2 GCOV | Radar NISAR — L2 GCOV
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT NISAR radar monitoring dashboard](aquabot-satellite-nisar-radar-tres-palos-2026.png) | AQUABOT MAX ECOSYSTEM dashboard showing NISAR L2 GCOV radar backscatter observations for Tres Palos Lagoon using HH polarization. The historical visualization covers four records between June 26 and August 13, 2026, including a geographic radar layer, temporal series, and backscatter statistics expressed in decibels (dB). | Panel de AQUABOT MAX ECOSYSTEM que muestra observaciones de retrodispersión radar NISAR L2 GCOV de la laguna de Tres Palos, utilizando polarización HH. La visualización histórica comprende cuatro registros entre el 26 de junio y el 13 de agosto de 2026, e incluye una capa geográfica de radar, una serie temporal y estadísticas de retrodispersión expresadas en decibelios (dB). |
+
+---
+
+
 
 
 
