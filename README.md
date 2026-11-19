@@ -34,6 +34,36 @@ AQUABOT MAX ECOSYSTEM integra el monitoreo fisicoquímico de la calidad del agua
 
 ---
 
+---
+
+## Platform Development Status | Estado de desarrollo de la plataforma
+
+### English
+
+AQUABOT MAX ECOSYSTEM integrates operational capabilities alongside additional modules undergoing development, integration, and scientific validation.
+
+The platform follows a progressive implementation roadmap. Each module's functional status will be documented and updated as its capabilities are verified.
+
+**Module status categories:**
+
+- **Operational:** Functionality implemented and verified.
+- **Partially operational:** Available functionality with additional capabilities under development.
+- **In development:** Functionality undergoing implementation, integration, or validation.
+
+### Español
+
+AQUABOT MAX ECOSYSTEM integra funcionalidades operativas y módulos adicionales que se encuentran en desarrollo, integración y validación científica.
+
+La plataforma sigue un plan de implementación progresiva. El estado funcional de cada módulo se documentará y actualizará conforme se verifiquen sus capacidades.
+
+**Categorías de estado:**
+
+- **Operativo:** Funcionalidad implementada y verificada.
+- **Operativo parcial:** Funcionalidad disponible con capacidades adicionales en desarrollo.
+- **En desarrollo:** Funcionalidad en proceso de implementación, integración o validación.
+
+---
+
 ## Project Evolution | Evolución del proyecto
 
 ### English
