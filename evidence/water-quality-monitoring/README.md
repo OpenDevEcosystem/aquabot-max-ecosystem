@@ -92,6 +92,15 @@ Los registros permiten caracterizar los cambios temporales de los parámetros de
 ---
 
 
+#### Lagoon Surface Temperature — Landsat | Temperatura superficial lagunar — Landsat
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Landsat lagoon surface temperature dashboard](aquabot-satellite-lagoon-temperature-landsat-2026-11.png) | AQUABOT MAX ECOSYSTEM dashboard presenting Landsat-derived surface temperature for Tres Palos Lagoon. The November 8, 2026 observation displays 32.46 °C, using the Landsat 8/9 Collection 2 Level 2 surface temperature product with water masking and quality controls. This represents surface temperature at the satellite observation time, rather than the temperature throughout the water column. | Panel de AQUABOT MAX ECOSYSTEM que presenta la temperatura superficial de la laguna de Tres Palos obtenida mediante Landsat. La observación del 8 de noviembre de 2026 muestra 32.46 °C, utilizando el producto de temperatura superficial Landsat 8/9 Collection 2 Level 2 con máscara de agua y controles de calidad. Representa la temperatura superficial durante la observación satelital, no la temperatura de toda la columna de agua. |
+
+---
+
+
 
 
 
