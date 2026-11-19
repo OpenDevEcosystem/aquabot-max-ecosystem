@@ -46,9 +46,11 @@ Esta sección documenta la instalación, operación, inspección y mantenimiento
 
 ### Field Documentation Gallery | Galería de documentación de campo
 
+
 | Photograph / Fotografía | Description | Descripción |
 |---|---|---|
-| Pending | General view of a fixed AQUABOT monitoring station installed in the field. | Vista general de una estación fija AQUABOT instalada en campo. |
+| ![AQUABOT field inspection 01](aquabot-field-maintenance-01.jpeg) | General view of an AQUABOT monitoring unit during field inspection, showing the square PVC flotation structure, central protective enclosure, mounting components, and visible signs of environmental exposure. | Vista general de un equipo AQUABOT durante una inspección en campo, donde se observan la estructura cuadrada de flotación de PVC, el contenedor central de protección, los elementos de sujeción y señales visibles de exposición ambiental. |
+| ![AQUABOT field inspection 02](aquabot-field-maintenance-02.jpeg) | Close-up view of the AQUABOT assembly, documenting surface wear on the PVC frame and the condition of the central enclosure and external connections. | Vista cercana del conjunto AQUABOT que documenta el desgaste superficial de la estructura de PVC y el estado del contenedor central y sus conexiones externas. |
 
 ---
 
