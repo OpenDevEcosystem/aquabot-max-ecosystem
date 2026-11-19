@@ -53,6 +53,18 @@ The photographs will be organized with independent English and Spanish descripti
 
 Las fotografías se organizarán con descripciones independientes en inglés y español.
 
+### Floating AQUABOT Stations | Estaciones flotantes AQUABOT
+
+The following photographs document floating AQUABOT monitoring stations from the post-Otis development stage.
+
+Las siguientes fotografías documentan estaciones flotantes AQUABOT correspondientes a la etapa de desarrollo posterior al huracán Otis.
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT floating station 01](aquabot-floating-station-2026-01.jpg) | Floating AQUABOT station with a rectangular PVC flotation frame, solar panel, electronic enclosure, and red identification flag, positioned beside a concrete shoreline. | Estación flotante AQUABOT con estructura rectangular de flotación de PVC, panel solar, contenedor electrónico y bandera roja de identificación, ubicada junto a una orilla de concreto. |
+| ![AQUABOT floating station 02](aquabot-floating-station-2026-02.jpg) | Additional photographic view of the floating AQUABOT station, documenting its physical configuration and deployment in the water. | Vista fotográfica adicional de la estación flotante AQUABOT, que documenta su configuración física y despliegue en el agua. |
+| ![AQUABOT floating station 03](aquabot-floating-station-2026-03.jpg) | Field photograph of a floating AQUABOT station, documenting its positioning within the monitored water body. | Fotografía de campo de una estación flotante AQUABOT, que documenta su ubicación dentro del cuerpo de agua monitoreado. |
+
 ---
 
 ## 4. Scientific and Environmental Relevance | Relevancia científica y ambiental
