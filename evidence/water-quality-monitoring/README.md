@@ -87,9 +87,10 @@ La evidencia se organizará de acuerdo con la actividad, el equipo y la informac
 
 ### Field Monitoring Gallery | Galería de monitoreo en campo
 
+
 | Photograph / Fotografía | Description | Descripción |
 |---|---|---|
-| Pending | Field measurement and verification activities. | Actividades de medición y verificación en campo. |
+| ![Portable water-quality meter showing TDS and temperature](aquabot-field-tds-temperature-01.jpeg) | Field photograph of a portable water-quality meter displaying approximately 2,480 ppm of total dissolved solids (TDS) and 38.8 °C. The image documents an instrument reading obtained during field monitoring activities. | Fotografía de campo de un medidor portátil de calidad del agua que muestra aproximadamente 2,480 ppm de sólidos disueltos totales (TDS) y 38.8 °C. La imagen documenta una lectura del instrumento obtenida durante actividades de monitoreo en campo. |
 
 ---
 
