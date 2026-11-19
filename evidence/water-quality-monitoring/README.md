@@ -71,6 +71,19 @@ Los registros permiten caracterizar los cambios temporales de los parámetros de
 
 ---
 
+
+### Satellite Monitoring Gallery | Galería de monitoreo satelital
+
+#### NDWI — Surface Water Monitoring | Monitoreo de agua superficial
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT NDWI satellite dashboard](aquabot-satellite-ndwi-tres-palos-2026-11.png) | AQUABOT MAX ECOSYSTEM satellite monitoring dashboard showing the Normalized Difference Water Index (NDWI) for Tres Palos Lagoon, including geographic visualization, historical observations, temporal trends, and environmental statistics. | Panel de monitoreo satelital de AQUABOT MAX ECOSYSTEM que muestra el Índice Normalizado de Diferencia de Agua (NDWI) de la laguna de Tres Palos, incluyendo visualización geográfica, observaciones históricas, tendencias temporales y estadísticas ambientales. |
+
+---
+
+
+
 ## 5. Photographic and Measurement Evidence | Evidencia fotográfica y de mediciones
 
 ### English
