@@ -41,15 +41,29 @@ Esta sección documenta el dispositivo MAXITO y su cabezal de sensores C-600, in
 
 ## 3. Photographic Evidence | Evidencia fotográfica
 
-Photographic documentation of MAXITO Belly Sensors and its C-600 sensor head will be incorporated in this section.
+### MAXITO Belly Sensors C-600 | Technological Development
 
-La documentación fotográfica de MAXITO Belly Sensors y su cabezal C-600 se incorporará en esta sección.
+MAXITO Belly Sensors C-600 represents a new stage in the evolution of AQUABOT MAX ECOSYSTEM, integrating advances in aquatic monitoring, electronic control, solar energy, and floating platform design.
+
+Its C-600 sensor head is attached to the lower section of the main enclosure and incorporates a seven-sensor monitoring system designed to support physicochemical water-quality measurements.
+
+The project continues advancing through electronic integration, technical adjustments, and field validation.
+
+### MAXITO Belly Sensors C-600 | Desarrollo tecnológico
+
+MAXITO Belly Sensors C-600 representa una nueva etapa en la evolución de AQUABOT MAX ECOSYSTEM, integrando avances en monitoreo acuático, control electrónico, energía solar y diseño de plataformas flotantes.
+
+Su cabezal C-600 está acoplado a la parte inferior del contenedor principal e incorpora un sistema de siete sensores diseñado para apoyar las mediciones fisicoquímicas de la calidad del agua.
+
+El proyecto continúa avanzando mediante integración electrónica, ajustes técnicos y validación en campo.
+
+### Design Gallery | Galería de diseño
 
 | Photograph / Fotografía | Description | Descripción |
 |---|---|---|
-| Pending | General view of MAXITO Belly Sensors with C-600 sensor head. | Vista general de MAXITO Belly Sensors con cabezal de sensores C-600. |
+| ![MAXITO Belly Sensors C-600](maxito-c600-concept-2026-01.png) | Conceptual design of the MAXITO Belly Sensors C-600 floating monitoring platform, integrating solar energy, PVC flotation structures, and the sensor head beneath the main enclosure. | Diseño conceptual de la plataforma flotante de monitoreo MAXITO Belly Sensors C-600, que integra energía solar, flotadores de PVC y el cabezal de sensores debajo del contenedor principal. |
+| ![MAXITO electronic control system](maxito-c600-validation-concept-2026.png) | Conceptual illustration of the electronic control system supporting the development and integration of MAXITO Belly Sensors C-600. | Ilustración conceptual del sistema de control electrónico que forma parte del desarrollo e integración de MAXITO Belly Sensors C-600. |
 
----
 
 ## 4. Technical Documentation | Documentación técnica
 
