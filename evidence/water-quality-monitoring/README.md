@@ -83,6 +83,17 @@ Los registros permiten caracterizar los cambios temporales de los parámetros de
 ---
 
 
+#### Precipitation — GPM IMERG | Precipitación — GPM IMERG
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT GPM IMERG precipitation dashboard](aquabot-satellite-precipitation-tres-palos-2026-11.png) | AQUABOT MAX ECOSYSTEM dashboard displaying satellite-derived precipitation estimates from GPM IMERG for the Tres Palos Lagoon area. The visualization includes a geographic map, a temporal rainfall series, and precipitation statistics expressed in millimeters. | Panel de AQUABOT MAX ECOSYSTEM que presenta estimaciones satelitales de precipitación mediante GPM IMERG para el entorno de la laguna de Tres Palos. La visualización incluye un mapa geográfico, una serie temporal de lluvia y estadísticas de precipitación expresadas en milímetros. |
+
+---
+
+
+
+
 
 ## 5. Photographic and Measurement Evidence | Evidencia fotográfica y de mediciones
 
