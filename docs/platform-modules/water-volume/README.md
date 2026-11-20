@@ -273,5 +273,17 @@ Su activación depende de la integración de datos reales de nivel del agua, sup
 
 ---
 
+
+---
+
+## 12. Water Volume Gallery | Galería del volumen de agua
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT water volume module](aquabot-water-volume-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Water Volume module interface, documented on November 19, 2026. The screenshot shows the prepared interface and explains that no operational water-volume estimates or historical volume series are currently available. It identifies the requirements for real water-level measurements, inundated-area data, bathymetry, and a validated level–area–volume relationship before future implementation. | Captura real del módulo Volumen de agua de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra la interfaz preparada y explica que todavía no existen estimaciones operativas de volumen de agua ni una serie histórica disponible. Identifica los requisitos de mediciones reales del nivel del agua, datos de superficie inundada, batimetría y una relación nivel–área–volumen validada antes de su futura implementación. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
