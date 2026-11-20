@@ -544,5 +544,17 @@ La interfaz evita expresamente presentar información simulada y requiere distin
 
 ---
 
+
+---
+
+## 20. Social Participation Gallery | Galería de participación social
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Social Participation module](aquabot-social-participation-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Social Participation interface, documented on November 19, 2026. The screenshot shows a prepared informational module for future community participation, including planned records for community actors, schools, field brigades, fishers, activities, territorial evidence, and citizen-science contributions. The interface explicitly states that active backend routes, database structures, and real participation records are not currently available. It also establishes that community evidence must remain distinguishable from instrumental measurements and that simulated community records will not be displayed. | Captura real del módulo Participación social de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra un módulo informativo preparado para la futura participación comunitaria, incluyendo registros previstos de actores comunitarios, escuelas, brigadas de campo, pescadores, actividades, evidencia territorial y aportaciones de ciencia ciudadana. La interfaz establece expresamente que todavía no existen rutas activas del backend, estructuras de base de datos ni registros reales de participación disponibles. También señala que la evidencia comunitaria deberá distinguirse de las mediciones instrumentales y que no se mostrarán registros comunitarios simulados. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
