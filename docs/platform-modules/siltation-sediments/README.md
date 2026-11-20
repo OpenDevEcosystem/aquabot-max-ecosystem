@@ -297,5 +297,17 @@ Su activación depende de mediciones de campo validadas, información batimétri
 
 ---
 
+
+---
+
+## 13. Siltation and Sediments Gallery | Galería de azolve y sedimentos
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT siltation and sediments module](aquabot-siltation-sediments-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Siltation and Sediments module interface, documented on November 19, 2026. The screenshot shows the prepared interface and explains that no operational siltation or sedimentation measurements or historical bathymetric series are currently available. It identifies the requirements for bathymetric surveys, field depth measurements, spatial references, methods for comparing lagoon-bottom changes, and future temporal analysis. | Captura real del módulo Azolve y sedimentos de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra la interfaz preparada y explica que todavía no existen mediciones operativas de azolve o sedimentación ni series batimétricas históricas disponibles. Identifica los requisitos de levantamientos batimétricos, mediciones de profundidad en campo, referencias espaciales, métodos para comparar cambios del fondo lagunar y futuros análisis temporales. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
