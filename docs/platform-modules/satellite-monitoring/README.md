@@ -432,5 +432,17 @@ La representación correcta y disponibilidad de las capas cartográficas individ
 
 ---
 
+
+---
+
+## 18. Satellite Monitoring Gallery | Galería de monitoreo satelital
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT satellite monitoring module](aquabot-satellite-monitoring-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Satellite Monitoring interface, captured on November 19, 2026. The screenshot displays the four satellite product options (NDWI, precipitation, lagoon surface temperature, and NISAR radar), the Tres Palos Lagoon geographic map, NDWI observations, the satellite information panel, the temporal chart, and descriptive statistics. The selected map layer was still loading at the time of capture, so its completed rendering is not verified by this image. | Captura real del módulo Satélite de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla muestra las cuatro opciones de productos satelitales (NDWI, precipitación, temperatura superficial lagunar y radar NISAR), el mapa geográfico de la laguna de Tres Palos, observaciones NDWI, la ficha satelital, la gráfica temporal y las estadísticas descriptivas. La capa seleccionada todavía se encontraba cargando al momento de la captura, por lo que esta imagen no verifica que su representación cartográfica haya concluido. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
