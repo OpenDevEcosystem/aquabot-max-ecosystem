@@ -414,5 +414,17 @@ La metodología de clasificación y los resultados de otras combinaciones de fue
 
 ---
 
+
+---
+
+## 16. Lagoon Phenomena Gallery | Galería de fenómenos de las lagunas
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Lagoon Phenomena module](aquabot-lagoon-phenomena-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Lagoon Phenomena interface, captured on November 19, 2026. The screenshot shows the local-sensor temperature view for Tres Palos Lagoon, change-event summaries, critical-event and atypical-value coincidence counts, the most recent temperature reading, backend environmental interpretations, possible ecological implications, suggested monitoring actions, and the change-evidence panel. No change events were reported for the selected period; this does not establish the absence of all environmental processes. | Captura real del módulo Fenómenos de las lagunas de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta la consulta de temperatura de sensores locales para la laguna de Tres Palos, resúmenes de eventos de cambio, conteos de eventos críticos y coincidencias con valores atípicos, lectura de temperatura más reciente, interpretaciones ambientales del backend, posibles implicaciones ecológicas, acciones sugeridas de monitoreo y panel de evidencia de cambios. No se reportaron eventos de cambio en el periodo seleccionado; esto no demuestra la ausencia de todos los procesos ambientales. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
