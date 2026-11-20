@@ -256,5 +256,17 @@ La disponibilidad de mediciones e interpretaciones individuales depende de la ex
 
 ---
 
+
+---
+
+## 12. Monitoring Gallery | Galería de monitoreo
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT physicochemical monitoring](aquabot-physicochemical-monitoring-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM physicochemical monitoring interface, captured on November 19, 2026. The screen shows the monitoring summary, physicochemical variables, available diagnostic messages, interactive temporal chart, selected-variable information panel, and operational data table. | Captura real de la interfaz de monitoreo fisicoquímico de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla muestra el resumen de monitoreo, las variables fisicoquímicas, los mensajes de diagnóstico disponibles, la gráfica temporal interactiva, la ficha de la variable seleccionada y la tabla operativa de datos. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
