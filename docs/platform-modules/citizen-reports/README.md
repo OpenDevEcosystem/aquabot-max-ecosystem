@@ -614,5 +614,17 @@ El módulo evita expresamente registros simulados y requiere que la futura evide
 
 ---
 
+
+---
+
+## 22. Citizen Reports Gallery | Galería de reportes ciudadanos
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Citizen Reports module](aquabot-citizen-reports-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Citizen Reports interface, documented on November 19, 2026. The screenshot shows a prepared informational module for future environmental reporting, including observations of water odor, color changes, aquatic organism mortality, waste accumulation, and possible discharges. The interface states that active backend routes, database structures, and citizen report records are not yet available. Future implementation requires report classification, geographic references, evidence storage, attention status, and traceability. Citizen evidence must remain distinguishable from instrumental and satellite observations. | Captura real del módulo Reportes ciudadanos de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra un módulo informativo preparado para futuros reportes ambientales, incluyendo observaciones de olores en el agua, cambios de coloración, mortandad de organismos acuáticos, acumulación de basura y posibles descargas. La interfaz señala que todavía no existen rutas activas del backend, estructuras de base de datos ni registros de reportes ciudadanos disponibles. Su futura implementación requiere clasificación de reportes, referencias geográficas, almacenamiento de evidencias, estados de atención y trazabilidad. La evidencia ciudadana deberá mantenerse diferenciada de las observaciones instrumentales y satelitales. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
