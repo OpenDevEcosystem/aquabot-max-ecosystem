@@ -723,5 +723,17 @@ Su futura activación requiere fuentes reales de información, criterios de inte
 
 ---
 
+
+---
+
+## 26. Water Governance Gallery | Galería de gobernanza hídrica
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Water Governance module](aquabot-water-governance-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Water Governance interface, documented on November 19, 2026. The screenshot shows a prepared informational module for future integration of social and institutional evidence, including public perception, sentiment analysis, public conversation, socioenvironmental conflicts, institutional actors, news, social media, and territorial signals. The interface reports that active backend routes, suitable database structures, and operational social indicators are not currently available. Its future implementation requires real information sources, integration criteria, traceability, data models, and backend contracts. Social and institutional evidence must remain distinguishable from instrumental and satellite measurements. | Captura real del módulo Gobernanza hídrica de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla presenta un módulo informativo preparado para la futura integración de evidencia social e institucional, incluyendo percepción pública, análisis de sentimiento, conversación pública, conflictos socioambientales, actores institucionales, noticias, redes sociales y señales territoriales. La interfaz señala que todavía no existen rutas activas del backend, estructuras de base de datos adecuadas ni indicadores sociales operativos disponibles. Su implementación futura requiere fuentes reales de información, criterios de integración, trazabilidad, modelos de datos y contratos del backend. La evidencia social e institucional deberá mantenerse diferenciada de las mediciones instrumentales y satelitales. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
