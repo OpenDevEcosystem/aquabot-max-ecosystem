@@ -231,5 +231,17 @@ Su activación depende de la integración y validación de una fuente real de me
 
 ---
 
+
+---
+
+## 11. Water Level Gallery | Galería del nivel del agua
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT water level module](aquabot-water-level-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Water Level module interface, documented on November 19, 2026. The screenshot shows the prepared module and explains that no real water-level measurement source or historical series is currently integrated. It also identifies the technical prerequisites for future implementation, including measurement units, vertical reference, sampling frequency, validation, and quality control. | Captura real del módulo Nivel del agua de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra el módulo preparado y explica que todavía no se ha integrado una fuente real de medición del nivel del agua ni una serie histórica. También identifica los requisitos técnicos para su futura implementación, como unidades de medición, referencia vertical, frecuencia de muestreo, validación y control de calidad. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
