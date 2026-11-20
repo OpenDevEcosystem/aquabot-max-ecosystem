@@ -515,5 +515,17 @@ Los métodos analíticos avanzados, incluyendo Fourier, espectros, espectrograma
 
 ---
 
+
+---
+
+## 18. Patterns and Trends Gallery | Galería de patrones y tendencias
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT patterns and trends module](aquabot-patterns-trends-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Patterns and Trends interface, captured on November 19, 2026. The screenshot shows temperature observations for Tres Palos Lagoon, including descriptive statistics, temporal change, an interactive time-series chart with 1,344 readings and 913 representative points, and a scatter plot of temperature versus dissolved oxygen. The interface reports a Pearson correlation coefficient of 0.213 using 29 aligned days, indicating a very weak positive linear association rather than causality. Advanced Fourier, spectral, seasonal, and lag analyses remain pending backend implementation. | Captura real del módulo Patrones y tendencias de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta observaciones de temperatura de la laguna de Tres Palos, incluyendo estadísticas descriptivas, cambio temporal, una gráfica de serie temporal con 1,344 lecturas y 913 puntos representativos, y un diagrama de dispersión de temperatura frente a oxígeno disuelto. La interfaz reporta un coeficiente de correlación de Pearson de 0.213 con 29 días alineados, que indica una asociación lineal positiva muy débil, no causalidad. Los análisis avanzados de Fourier, espectros, estacionalidad y retardos continúan pendientes de implementación en el backend. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
