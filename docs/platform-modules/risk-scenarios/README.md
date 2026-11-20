@@ -486,5 +486,17 @@ Los criterios utilizados por el backend y la validez de las mediciones individua
 
 ---
 
+
+---
+
+## 17. Risk Scenarios Gallery | Galería de escenarios de riesgo
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Risk Scenarios module](aquabot-risk-scenarios-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Risk Scenarios interface, captured on November 19, 2026. The screenshot shows the current physicochemical monitoring conditions of Tres Palos Lagoon, including five variables classified as normal, one requiring monitoring, zero classified as critical, two without data, and 75% reported data coverage. Oxygenation is identified as the main current concern, with dissolved oxygen at 2.95 mg/L. The interface also presents backend follow-up recommendations and a consolidated classification table. These results describe current observations and are not predictions of future environmental conditions. | Captura real del módulo Escenarios de riesgo de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta las condiciones fisicoquímicas actuales de la laguna de Tres Palos, incluyendo cinco variables clasificadas como normales, una en seguimiento, cero críticas, dos sin datos y una cobertura reportada del 75%. La oxigenación aparece como la principal condición de atención, con oxígeno disuelto de 2.95 mg/L. La interfaz también muestra recomendaciones de seguimiento del backend y una tabla consolidada de clasificaciones. Estos resultados describen observaciones actuales y no representan predicciones de condiciones ambientales futuras. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
