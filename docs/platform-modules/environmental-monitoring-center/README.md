@@ -593,5 +593,17 @@ Por lo tanto, el módulo requiere corrección de seguridad e integración adicio
 
 ---
 
+
+---
+
+## 21. Environmental Monitoring Center Gallery | Galería del centro de monitoreo ambiental
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Environmental Monitoring Center](aquabot-monitoring-center-2026-11-20.png) | Actual AQUABOT MAX ECOSYSTEM Environmental Monitoring Center interface, documented on November 20, 2026. The screenshot presents the administrative configuration dashboard, including sensor thresholds, alert settings, access management, system configuration, operational parameters, and detected monitoring stations. The interface provides editable local threshold ranges and reports that persistent integration with MySQL and operational monitoring services remains pending. The screenshot has been redacted to conceal service connection addresses and does not display login credentials. Secure administrative authentication and authorization require independent verification and remediation. | Captura real del Centro de monitoreo ambiental de AQUABOT MAX ECOSYSTEM, documentada el 20 de noviembre de 2026. La pantalla presenta el panel de configuración administrativa, incluyendo umbrales de sensores, configuración de alertas, gestión de acceso, configuración del sistema, parámetros operativos y estaciones de monitoreo detectadas. La interfaz permite editar rangos locales de umbrales e indica que la integración persistente con MySQL y los servicios operativos de monitoreo continúa pendiente. La captura fue censurada para ocultar direcciones de conexión y no muestra credenciales de inicio de sesión. La autenticación y autorización administrativas seguras requieren verificación independiente y corrección. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
