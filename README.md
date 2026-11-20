@@ -108,3 +108,84 @@ Consulta la evolución tecnológica y la arquitectura del sistema AQUABOT MAX EC
 | [Technology Evolution 2025–2026](TECHNOLOGY_EVOLUTION_2025_2026.md) | Historical development, documented capabilities and comparison framework / Desarrollo histórico, capacidades documentadas y marco comparativo |
 | [System Architecture / Arquitectura del Sistema](SYSTEM_ARCHITECTURE.md) | IoT monitoring, satellite resources, geospatial processing, analytics and environmental reporting / Monitoreo IoT, recursos satelitales, procesamiento geoespacial, analítica e informes ambientales |
 
+
+---
+
+## Platform Modules | Módulos de la plataforma
+
+### English
+
+AQUABOT MAX ECOSYSTEM includes 21 documented platform modules covering physicochemical water-quality monitoring, environmental data analysis, satellite observations, hydrological information, community participation, environmental reporting, and administrative configuration.
+
+Each module has a dedicated technical README describing its functional scope, development status, scientific considerations, and representative user interface.
+
+The documentation distinguishes operational capabilities from features that remain under development.
+
+**[Explore the 21 Platform Modules](docs/platform-modules/README.md)**
+
+### Español
+
+AQUABOT MAX ECOSYSTEM cuenta con 21 módulos documentados que abarcan monitoreo fisicoquímico de la calidad del agua, análisis de datos ambientales, observaciones satelitales, información hidrológica, participación comunitaria, informes ambientales y configuración administrativa.
+
+Cada módulo dispone de un README técnico que describe su alcance funcional, estado de desarrollo, consideraciones científicas e interfaz representativa.
+
+La documentación distingue las capacidades operativas de las funcionalidades que permanecen en desarrollo.
+
+**[Explorar los 21 módulos de la plataforma](docs/platform-modules/README.md)**
+
+---
+
+## Environmental and Field Evidence | Evidencias ambientales y de campo
+
+### English
+
+The project repository includes documentary evidence related to the technological development, field activities, monitoring equipment, and environmental observations associated with AQUABOT MAX ECOSYSTEM.
+
+This evidence supports the documentation of the project's development and implementation history.
+
+Photographs, field observations, instrumental measurements, and satellite-derived environmental information must be interpreted according to their respective sources and limitations.
+
+**[Explore Project Evidence](evidence/README.md)**
+
+### Español
+
+El repositorio del proyecto incluye evidencias documentales relacionadas con el desarrollo tecnológico, las actividades de campo, los equipos de monitoreo y las observaciones ambientales asociadas con AQUABOT MAX ECOSYSTEM.
+
+Estas evidencias respaldan la documentación de la evolución e implementación del proyecto.
+
+Las fotografías, observaciones de campo, mediciones instrumentales e información ambiental derivada de satélites deben interpretarse de acuerdo con sus respectivas fuentes y limitaciones.
+
+**[Explorar las evidencias del proyecto](evidence/README.md)**
+
+---
+
+## Documentation Navigation | Navegación de la documentación
+
+| Documentation | Documentación | Access / Acceso |
+|---|---|---|
+| Platform Modules | Módulos de la plataforma | [Explore / Explorar](docs/platform-modules/README.md) |
+| System Architecture | Arquitectura del sistema | [Explore / Explorar](SYSTEM_ARCHITECTURE.md) |
+| Technology Evolution 2025–2026 | Evolución tecnológica 2025–2026 | [Explore / Explorar](TECHNOLOGY_EVOLUTION_2025-2026.md) |
+| Project Evidence | Evidencias del proyecto | [Explore / Explorar](evidence/README.md) |
+
+---
+
+## Documentation and Security | Documentación y seguridad
+
+### English
+
+The repository documents the project's development and the current state of its platform modules.
+
+Administrative credentials, passwords, access tokens, and other sensitive operational information must not be included in public documentation.
+
+The administrative configuration module has an identified security issue requiring remediation. Its documentation does not imply that the issue has been resolved.
+
+### Español
+
+El repositorio documenta el desarrollo del proyecto y el estado actual de los módulos de su plataforma.
+
+Las credenciales administrativas, contraseñas, tokens de acceso y otros datos operativos sensibles no deben incluirse en la documentación pública.
+
+El módulo de configuración administrativa presenta un problema de seguridad identificado que requiere corrección. Su documentación no significa que dicho problema haya sido resuelto.
+
+---
