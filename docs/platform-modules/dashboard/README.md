@@ -190,5 +190,17 @@ La disponibilidad de los datos individuales depende de las fuentes de monitoreo,
 
 ---
 
+
+---
+
+## 9. Dashboard Gallery | Galería del Dashboard
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT MAX ECOSYSTEM Dashboard](aquabot-dashboard-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM monitoring dashboard, captured on November 19, 2026. The interface displays the general environmental condition, principal risk indicator, data coverage, physicochemical water-quality variables, descriptive statistics, and monitoring data availability. | Captura real del Dashboard de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La interfaz presenta la condición ambiental general, el indicador principal de riesgo, la cobertura de datos, las variables fisicoquímicas de calidad del agua, las estadísticas descriptivas y la disponibilidad de información de monitoreo. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
