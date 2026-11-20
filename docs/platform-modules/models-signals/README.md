@@ -483,5 +483,17 @@ La captura de referencia no demuestra resultados operativos de procesamiento de 
 
 ---
 
+
+---
+
+## 17. Models and Signals Gallery | Galería de modelos y señales
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Models and Signals module](aquabot-models-signals-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Models and Signals interface, documented on November 19, 2026. The screenshot shows a prepared module intended for future environmental time-series processing, Fast Fourier Transform (FFT), spectrograms, predictions, and environmental modeling. It also describes the intended architecture, in which computationally intensive tasks are performed in the backend and complete raw datasets are preserved for scientific analysis. The screenshot does not demonstrate operational analytical algorithms or validated model results. | Captura real del módulo Modelos y Señales de AQUABOT MAX ECOSYSTEM, documentada el 19 de noviembre de 2026. La pantalla muestra un módulo preparado para el futuro procesamiento de series temporales ambientales, transformada rápida de Fourier (FFT), espectrogramas, predicciones y modelado ambiental. También describe la arquitectura prevista, en la que los cálculos computacionalmente intensivos se realizan en el backend y se conservan completos los datos originales para análisis científicos. La captura no demuestra algoritmos analíticos operativos ni resultados de modelos validados. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
