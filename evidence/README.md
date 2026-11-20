@@ -79,6 +79,7 @@ Las fotografías deberán conservar su contexto original y no deberán recibir f
 | Photographic Evidence | Evidencias fotográficas | [README](photos/README.md) |
 | Early Prototypes | Prototipos iniciales | [README](photos/pre-otis-prototypes/README.md) |
 | Post-Otis Monitoring Stations | Estaciones de monitoreo posteriores a Otis | [README](photos/post-otis-stations/README.md) |
+| Satellite Observations and Remote Sensing | Observaciones satelitales y percepción remota | [README](satellite-observations/README.md) |
 
 ---
 
