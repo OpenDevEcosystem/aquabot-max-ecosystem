@@ -168,6 +168,7 @@ Las fotografías, observaciones de campo, mediciones instrumentales e informaci�
 | Technology Evolution 2025–2026 | Evolución tecnológica 2025–2026 | [Explore / Explorar](TECHNOLOGY_EVOLUTION_2025-2026.md) |
 | Project Evidence | Evidencias del proyecto | [Explore / Explorar](evidence/README.md) |
 | Technology Stack and Scientific Data Sources | Tecnologías y fuentes de datos científicos | [View documentation](docs/TECHNOLOGY_STACK_AND_DATA_SOURCES.md) |
+| Mathematical Models and Signal Analysis | Modelos matemáticos y análisis de señales | [Explore / Explorar](docs/MATHEMATICAL_MODELS_AND_SIGNAL_ANALYSIS.md) |
 ---
 
 ## Documentation and Security | Documentación y seguridad
