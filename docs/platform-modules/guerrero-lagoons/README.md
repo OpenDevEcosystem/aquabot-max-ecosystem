@@ -273,5 +273,17 @@ El inventario geográfico está implementado, mientras que las capacidades indiv
 
 ---
 
+
+---
+
+## 12. Guerrero Lagoons Gallery | Galería de lagunas de Guerrero
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Guerrero lagoons geographic inventory](aquabot-guerrero-lagoons-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Guerrero Lagoons interface, captured on November 19, 2026. The screen displays an interactive geographic map of Guerrero, a regional inventory of twelve lagoon water bodies, and labels identifying geographic geometry, local sensor associations, satellite observation capabilities, and NISAR radar integration. The presence of these labels does not guarantee active sensors or current satellite data availability for every lagoon. | Captura real del módulo Lagunas de Guerrero de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta un mapa geográfico interactivo de Guerrero, un inventario regional de doce cuerpos lagunares y etiquetas que identifican geometría geográfica, asociación con sensores locales, capacidades de observación satelital e integración de radar NISAR. La presencia de estas etiquetas no garantiza sensores activos ni disponibilidad actual de datos satelitales para todas las lagunas. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
