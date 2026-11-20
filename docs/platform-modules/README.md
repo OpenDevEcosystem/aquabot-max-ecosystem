@@ -183,5 +183,107 @@ La documentación funcional se ampliará conforme se revisen los módulos y se v
 
 ---
 
+
+---
+
+## 6. Module Documentation Index | Índice de documentación de módulos
+
+### English
+
+AQUABOT MAX ECOSYSTEM includes 21 documented platform modules organized by functional area.
+
+Each module has its own technical README, with bilingual descriptions, current development status, functional scope, scientific considerations, and a representative interface screenshot.
+
+The following links provide direct access to the individual module documentation.
+
+### Español
+
+AQUABOT MAX ECOSYSTEM cuenta con 21 módulos documentados, organizados por área funcional.
+
+Cada módulo dispone de su propio README técnico, con descripciones bilingües, estado actual de desarrollo, alcance funcional, consideraciones científicas y una captura representativa de su interfaz.
+
+Los siguientes enlaces permiten acceder directamente a la documentación individual de cada módulo.
+
+---
+
+### 6.1 Monitoring and Data | Monitoreo y datos
+
+| No. | Module | Módulo | Documentation / Documentación |
+|---|---|---|---|
+| 01 | Dashboard | Tablero principal | [README](dashboard/README.md) |
+| 02 | Physicochemical Monitoring | Monitoreo fisicoquímico | [README](physicochemical-monitoring/README.md) |
+| 03 | Historical Monitoring | Monitoreo histórico | [README](historical-monitoring/README.md) |
+| 04 | Alerts | Alertas | [README](alerts/README.md) |
+| 05 | Monitoring Stations | Estaciones de monitoreo | [README](monitoring-stations/README.md) |
+| 06 | Lagoons | Lagunas | [README](lagoons/README.md) |
+| 07 | Guerrero Lagoons | Lagunas de Guerrero | [README](guerrero-lagoons/README.md) |
+
+### 6.2 Hydrology and Remote Sensing | Hidrología y percepción remota
+
+| No. | Module | Módulo | Documentation / Documentación |
+|---|---|---|---|
+| 08 | Water Level | Nivel del agua | [README](water-level/README.md) |
+| 09 | Water Volume | Volumen de agua | [README](water-volume/README.md) |
+| 10 | Siltation and Sediments | Azolve y sedimentos | [README](siltation-sediments/README.md) |
+| 11 | Satellite Monitoring | Monitoreo satelital | [README](satellite-monitoring/README.md) |
+
+### 6.3 Environmental Analysis | Análisis ambiental
+
+| No. | Module | Módulo | Documentation / Documentación |
+|---|---|---|---|
+| 12 | Lagoon Phenomena | Fenómenos de las lagunas | [README](lagoon-phenomena/README.md) |
+| 13 | Patterns and Trends | Patrones y tendencias | [README](patterns-trends/README.md) |
+| 14 | Models and Signals | Modelos y señales | [README](models-signals/README.md) |
+| 15 | Risk Scenarios | Escenarios de riesgo | [README](risk-scenarios/README.md) |
+| 16 | Laboratory and Validation | Laboratorio y validación | [README](laboratory-validation/README.md) |
+
+### 6.4 Community and Governance | Comunidad y gobernanza
+
+| No. | Module | Módulo | Documentation / Documentación |
+|---|---|---|---|
+| 17 | Social Participation | Participación social | [README](social-participation/README.md) |
+| 18 | Citizen Reports | Reportes ciudadanos | [README](citizen-reports/README.md) |
+| 19 | Water Governance | Gobernanza hídrica | [README](water-governance/README.md) |
+
+### 6.5 Reports and Administration | Reportes y administración
+
+| No. | Module | Módulo | Documentation / Documentación |
+|---|---|---|---|
+| 20 | Reports | Reportes | [README](reports/README.md) |
+| 21 | Environmental Monitoring Center | Centro de monitoreo ambiental | [README](environmental-monitoring-center/README.md) |
+
+---
+
+## 7. Documentation Principles | Principios de documentación
+
+### English
+
+The documentation follows these principles:
+
+- Distinguish operational capabilities from functions under development.
+- Document actual interfaces without inventing results.
+- Identify the limitations of available environmental observations.
+- Keep local sensor measurements, satellite products, and community evidence conceptually separate.
+- Preserve bilingual technical documentation.
+- Use representative screenshots instead of unnecessary repetitions.
+- Avoid publishing credentials or sensitive administrative information.
+- Update the documentation as functionality is implemented and verified.
+
+### Español
+
+La documentación sigue estos principios:
+
+- Distinguir las capacidades operativas de las funciones en desarrollo.
+- Documentar interfaces reales sin inventar resultados.
+- Identificar las limitaciones de las observaciones ambientales disponibles.
+- Mantener diferenciadas las mediciones de sensores locales, los productos satelitales y la evidencia comunitaria.
+- Conservar documentación técnica bilingüe.
+- Utilizar capturas representativas en lugar de repeticiones innecesarias.
+- Evitar publicar credenciales o información administrativa sensible.
+- Actualizar la documentación conforme se implementen y verifiquen las funcionalidades.
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
