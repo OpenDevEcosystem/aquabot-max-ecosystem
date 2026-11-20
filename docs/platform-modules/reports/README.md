@@ -877,5 +877,17 @@ La versión actual no mantiene un historial documental permanente de informes en
 
 ---
 
+
+---
+
+## 24. Reports Gallery | Galería de reportes
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Reports main interface](aquabot-reports-main-2026-11-20.png) | Main interface of the AQUABOT MAX ECOSYSTEM Reports module, documented on November 20, 2026. The screenshot shows the initial report-generation screen for Tres Palos Lagoon, with local sensors as the monitoring source, all stations selected, a seven-day analysis period, and pH as the principal variable. The module provides an on-demand workflow for generating environmental diagnostic reports that integrate current environmental conditions, statistical consistency assessments, and spectral analysis when sufficient data are available. The interface describes PDF and CSV export capabilities. At the time of capture, the report status is pending because no report has yet been generated in that session. | Interfaz principal del módulo Reportes de AQUABOT MAX ECOSYSTEM, documentada el 20 de noviembre de 2026. La captura muestra la pantalla inicial de generación de informes para la laguna de Tres Palos, con sensores locales como fuente de monitoreo, todas las estaciones seleccionadas, un periodo de análisis de siete días y pH como variable principal. El módulo permite generar informes diagnósticos ambientales bajo demanda que integran condiciones ambientales actuales, evaluaciones de consistencia estadística y análisis espectral cuando existen datos suficientes. La interfaz describe capacidades de exportación PDF y CSV. Al momento de la captura, el estado del informe es pendiente porque todavía no se había generado un reporte en esa sesión. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
