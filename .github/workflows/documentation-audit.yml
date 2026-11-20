@@ -1,0 +1,195 @@
+
+name: AQUABOT Documentation Audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+      - "docs/**"
+      - "evidence/**"
+      - ".github/workflows/documentation-audit.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "docs/**"
+      - "evidence/**"
+
+permissions:
+  contents: read
+
+jobs:
+  documentation-audit:
+    name: Check documentation and local assets
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit AQUABOT documentation
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+          from urllib.parse import urlsplit, unquote
+
+          root = Path.cwd()
+          errors = []
+          checked = 0
+
+          modules = [
+              "dashboard",
+              "physicochemical-monitoring",
+              "historical-monitoring",
+              "alerts",
+              "monitoring-stations",
+              "lagoons",
+              "guerrero-lagoons",
+              "water-level",
+              "water-volume",
+              "siltation-sediments",
+              "satellite-monitoring",
+              "lagoon-phenomena",
+              "patterns-trends",
+              "models-signals",
+              "risk-scenarios",
+              "laboratory-validation",
+              "social-participation",
+              "citizen-reports",
+              "water-governance",
+              "reports",
+              "environmental-monitoring-center",
+          ]
+
+          required = [
+              "README.md",
+              "SYSTEM_ARCHITECTURE.md",
+              "TECHNOLOGY_EVOLUTION_2025-2026.md",
+              "docs/platform-modules/README.md",
+              "evidence/README.md",
+              "evidence/photos/README.md",
+              "evidence/satellite-observations/README.md",
+          ]
+
+          required += [
+              f"docs/platform-modules/{module}/README.md"
+              for module in modules
+          ]
+
+          def report(file, message):
+              errors.append((str(file), message))
+              print(f"ERROR: {file}: {message}")
+
+          for name in required:
+              if not (root / name).is_file():
+                  report(name, "Required document is missing")
+
+          link_pattern = re.compile(
+              r'!?\[[^\]]*\]\((<[^>]+>|[^)\s]+)'
+              r'(?:\s+["\'][^"\']*["\'])?\)'
+              r'|<(?:img|a)\b[^>]*?\b(?:src|href)='
+              r'["\']([^"\']+)["\']',
+              re.IGNORECASE
+          )
+
+          for markdown in root.rglob("*.md"):
+              if ".git" in markdown.parts:
+                  continue
+
+              text = markdown.read_text(
+                  encoding="utf-8", errors="replace"
+              )
+
+              # Ignore fenced code examples.
+              text = re.sub(
+                  r"(?m)^(`{3,}|~{3,}).*?^\1[ \t]*$",
+                  "",
+                  text,
+                  flags=re.DOTALL
+              )
+
+              for match in link_pattern.finditer(text):
+                  destination = match.group(1) or match.group(2)
+                  destination = destination.strip("<>")
+
+                  parsed = urlsplit(destination)
+
+                  # External links are outside this local audit.
+                  if parsed.scheme or parsed.netloc:
+                      continue
+                  if destination.startswith("//"):
+                      continue
+                  if not parsed.path:
+                      continue
+
+                  path = unquote(parsed.path)
+
+                  if path.startswith("/"):
+                      target = root / path.lstrip("/")
+                  else:
+                      target = markdown.parent / path
+
+                  checked += 1
+
+                  if not target.exists():
+                      relative = markdown.relative_to(root)
+                      report(
+                          relative,
+                          f"Broken local reference: {destination}"
+                      )
+
+          summary = [
+              "# AQUABOT Documentation Audit",
+              "",
+              f"- Expected platform modules: {len(modules)}",
+              f"- Markdown files checked: "
+              f"{sum(1 for _ in root.rglob('*.md'))}",
+              f"- Local references checked: {checked}",
+              f"- Errors detected: {len(errors)}",
+              "",
+          ]
+
+          if errors:
+              summary.append("## Issues found")
+              for file, message in errors:
+                  summary.append(f"- `{file}`: {message}")
+                  safe = message.replace("%", "%25")
+                  print(
+                      f"::error file={file}::{safe}"
+                  )
+          else:
+              summary.append(
+                  "All required documents and checked "
+                  "local references were found."
+              )
+
+          with open(
+              Path("/tmp/aquabot-audit-summary.md"),
+              "w",
+              encoding="utf-8"
+          ) as output:
+              output.write("\n".join(summary) + "\n")
+
+          print()
+          print(f"Checked {checked} local references.")
+          print(f"Found {len(errors)} errors.")
+
+          sys.exit(1 if errors else 0)
+          PY
+
+      - name: Publish audit summary
+        if: always()
+        shell: bash
+        run: |
+          if [ -f /tmp/aquabot-audit-summary.md ]; then
+            cat /tmp/aquabot-audit-summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
