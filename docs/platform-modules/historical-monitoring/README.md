@@ -199,5 +199,17 @@ Podrán incorporarse capacidades adicionales conforme evolucione la plataforma.
 
 ---
 
+
+---
+
+## 11. Historical Monitoring Gallery | Galería de monitoreo histórico
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT historical monitoring](aquabot-historical-monitoring-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Historical Monitoring interface, captured on November 19, 2026. The screen displays historical monitoring filters, physicochemical variable selection, temporal visualization, statistical summaries, and an extensive table of historical water-quality records. The availability of information depends on the selected consultation and existing records. | Captura real de la interfaz del módulo Histórico de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta filtros de consulta histórica, selección de variables fisicoquímicas, visualización temporal, resúmenes estadísticos y una tabla extensa de registros históricos de calidad del agua. La disponibilidad de información depende de la consulta seleccionada y de los registros existentes. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
