@@ -311,5 +311,17 @@ La disponibilidad e integridad de las interpretaciones dependen de las observaci
 
 ---
 
+
+---
+
+## 13. Alerts Gallery | Galería de alertas
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT environmental alerts](aquabot-environmental-alerts-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Environmental Alerts interface, captured on November 19, 2026. The screen displays environmental monitoring classifications, backend diagnostic messages, suggested follow-up actions, physicochemical indicators, an interactive temporal chart, a detailed alert information panel, and an operational monitoring log. | Captura real de la interfaz del módulo Alertas ambientales de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta clasificaciones de monitoreo ambiental, mensajes diagnósticos del backend, acciones sugeridas de seguimiento, indicadores fisicoquímicos, una gráfica temporal interactiva, una ficha detallada de alerta y una bitácora operativa de monitoreo. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
