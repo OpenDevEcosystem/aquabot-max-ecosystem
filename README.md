@@ -105,7 +105,7 @@ Consulta la evolución tecnológica y la arquitectura del sistema AQUABOT MAX EC
 
 | Document / Documento | Description / Descripción |
 |---|---|
-| [Technology Evolution 2025–2026](TECHNOLOGY_EVOLUTION_2025_2026.md) | Historical development, documented capabilities and comparison framework / Desarrollo histórico, capacidades documentadas y marco comparativo |
+| [Technology Evolution 2025–2026](TECHNOLOGY_EVOLUTION_2025-2026.md) | Historical development, documented capabilities and comparison framework / Desarrollo histórico, capacidades documentadas y marco comparativo |
 | [System Architecture / Arquitectura del Sistema](SYSTEM_ARCHITECTURE.md) | IoT monitoring, satellite resources, geospatial processing, analytics and environmental reporting / Monitoreo IoT, recursos satelitales, procesamiento geoespacial, analítica e informes ambientales |
 
 
