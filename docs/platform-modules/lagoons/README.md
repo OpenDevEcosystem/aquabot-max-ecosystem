@@ -267,5 +267,17 @@ La disponibilidad de observaciones depende de la laguna, el producto satelital y
 
 ---
 
+
+---
+
+## 13. Lagoons Gallery | Galería de lagunas
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Lagoons monitoring module](aquabot-lagoons-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Lagoons interface, captured on November 19, 2026. The screen displays Tres Palos Lagoon, its geographic map, available satellite layers including NDWI, precipitation, surface temperature and NISAR radar, the selected environmental indicator, descriptive statistics, and a temporal observation chart. The screenshot documents the NDWI visualization for the selected period, not a comprehensive ecological diagnosis of the lagoon. | Captura real del módulo Lagunas de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta la laguna de Tres Palos, su mapa geográfico, las capas satelitales disponibles de NDWI, precipitación, temperatura superficial y radar NISAR, el indicador ambiental seleccionado, las estadísticas descriptivas y una gráfica de observaciones temporales. La imagen documenta la visualización NDWI del periodo seleccionado, no un diagnóstico ecológico integral de la laguna. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
