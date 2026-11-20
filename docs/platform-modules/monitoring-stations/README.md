@@ -283,5 +283,17 @@ La precisión e integridad de los estados dependen de las observaciones de monit
 
 ---
 
+
+---
+
+## 13. Monitoring Stations Gallery | Galería de estaciones de monitoreo
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT monitoring stations](aquabot-monitoring-stations-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Monitoring Stations interface, captured on November 19, 2026. The screen displays the station identifiers A0000, A0001, and A0002, their reported operational status, data coverage, variable classifications, temporal visualization, station information panel, and consolidated operational table. The interface distinguishes registered stations from the availability of valid monitoring observations. | Captura real del módulo Estaciones de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla presenta los identificadores A0000, A0001 y A0002, sus estados operativos reportados, cobertura de datos, clasificación de variables, visualización temporal, ficha de estación y tabla operativa consolidada. La interfaz permite distinguir las estaciones registradas de la disponibilidad de observaciones válidas de monitoreo. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
