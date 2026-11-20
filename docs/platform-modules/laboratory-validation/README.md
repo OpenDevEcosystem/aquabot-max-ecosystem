@@ -526,5 +526,17 @@ La comparación con laboratorio externo, validación metrológica, evaluación d
 
 ---
 
+
+---
+
+## 19. Laboratory and Validation Gallery | Galería de laboratorio y validación
+
+| Photograph / Fotografía | Description | Descripción |
+|---|---|---|
+| ![AQUABOT Laboratory and Validation module](aquabot-laboratory-validation-2026-11-19.png) | Actual AQUABOT MAX ECOSYSTEM Laboratory and Validation interface, captured on November 19, 2026. The screenshot documents the statistical consistency assessment of local pH observations from Tres Palos Lagoon, reporting high consistency with a score of 100.00, zero null values, zero atypical values, zero observations outside basic physical ranges, and zero heuristic gaps. It also displays the backend's three-standard-deviation screening rule, minimum sample requirement, and pending laboratory integration. The consistency score does not establish sensor accuracy, calibration, or metrological validation. | Captura real del módulo Laboratorio y validación de AQUABOT MAX ECOSYSTEM del 19 de noviembre de 2026. La pantalla documenta la evaluación de consistencia estadística de observaciones locales de pH de la laguna de Tres Palos, reportando consistencia alta con puntuación de 100.00, cero valores nulos, cero valores atípicos, cero observaciones fuera de rangos físicos básicos y cero brechas heurísticas. También muestra la regla de tres desviaciones estándar del backend, el requisito mínimo de muestra y la integración de laboratorio pendiente. La puntuación de consistencia no demuestra exactitud, calibración ni validación metrológica de los sensores. |
+
+---
+
+
 **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
