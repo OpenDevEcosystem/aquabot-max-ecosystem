@@ -167,7 +167,7 @@ Las fotografías, observaciones de campo, mediciones instrumentales e informaci�
 | System Architecture | Arquitectura del sistema | [Explore / Explorar](SYSTEM_ARCHITECTURE.md) |
 | Technology Evolution 2025–2026 | Evolución tecnológica 2025–2026 | [Explore / Explorar](TECHNOLOGY_EVOLUTION_2025-2026.md) |
 | Project Evidence | Evidencias del proyecto | [Explore / Explorar](evidence/README.md) |
-
+| Technology Stack and Scientific Data Sources | Tecnologías y fuentes de datos científicos | [View documentation](docs/TECHNOLOGY_STACK_AND_DATA_SOURCES.md) |
 ---
 
 ## Documentation and Security | Documentación y seguridad
