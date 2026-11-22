@@ -82,6 +82,9 @@ environmental-reports/
 │   ├── 09/
 │   ├── 10/
 │   └── 11/
+│       ├── informe_satelital_12_lagunas_YYYYMMDD_HHMMSS_es.pdf
+│       ├── informe_satelital_12_lagunas_YYYYMMDD_HHMMSS_en.pdf
+│       └── informe_satelital_12_lagunas_YYYYMMDD_HHMMSS_manifest.json
 └── report-delivery/
 ```
 
@@ -91,15 +94,15 @@ environmental-reports/
 
 ### English
 
-AQUABOT MAX ECOSYSTEM includes an automated workflow for generating environmental reports in PDF format and distributing them through WhatsApp.
+AQUABOT MAX ECOSYSTEM operates a daily workflow that creates Spanish and English PDF reports from one shared, immutable data snapshot. Both documents retain the same observation dates, numerical values, satellite sources, maps, and issuance timestamp; only presentation language changes.
 
-The reporting workflow is intended to support timely access to environmental monitoring information.
+The Spanish PDF is distributed through WhatsApp. The English PDF is generated and archived but is not sent through WhatsApp. Delivery and archival states are independent, so a GitHub failure does not repeat or block a successful WhatsApp delivery.
 
 ### Español
 
-AQUABOT MAX ECOSYSTEM incorpora un proceso automatizado para generar informes ambientales en formato PDF y distribuirlos mediante WhatsApp.
+AQUABOT MAX ECOSYSTEM opera un proceso diario que crea informes PDF en español e inglés a partir de una única instantánea inmutable de datos. Ambos documentos conservan las mismas fechas de observación, valores numéricos, fuentes satelitales, mapas y hora de emisión; únicamente cambia el idioma de presentación.
 
-Este proceso facilita el acceso oportuno a la información de monitoreo ambiental.
+El PDF en español se distribuye por WhatsApp. El PDF en inglés se genera y archiva, pero no se envía por WhatsApp. Los estados de entrega y archivo son independientes, por lo que un fallo de GitHub no bloquea ni repite un envío correcto de WhatsApp.
 
 ---
 
@@ -107,15 +110,19 @@ Este proceso facilita el acceso oportuno a la información de monitoreo ambienta
 
 ### English
 
-The reporting system is planned to incorporate automated archival of generated PDF reports into this repository, complementing the existing WhatsApp distribution workflow.
+Automated bilingual archival has been operational since November 20, 2026. Each run stores the Spanish PDF, the English PDF, and a public JSON traceability manifest under `YYYY/MM/`.
 
-The archive will preserve issuance dates, document versions, and traceability information.
+PDF files are stored as Git LFS objects. The manifest records the run identifier, local and UTC issuance times, time zone, shared snapshot SHA-256, per-language PDF SHA-256 and size, source-manifest filenames, and the scientific measurement limitations. It contains no recipient personal data.
+
+The 81 original Spanish reports issued from September 1 through November 19, 2026 remain unchanged as the historical baseline.
 
 ### Español
 
-Se contempla integrar el almacenamiento automático de los informes PDF generados en este repositorio, como complemento al proceso existente de distribución por WhatsApp.
+El archivo bilingüe automatizado está operativo desde el 20 de noviembre de 2026. Cada ejecución almacena el PDF en español, el PDF en inglés y un manifiesto público JSON de trazabilidad bajo `AAAA/MM/`.
 
-El archivo conservará las fechas de emisión, las versiones de los documentos y la información de trazabilidad.
+Los PDF se almacenan como objetos Git LFS. El manifiesto registra el identificador de ejecución, las horas de emisión local y UTC, la zona horaria, el SHA-256 de la instantánea compartida, el SHA-256 y tamaño de cada PDF, los nombres de los manifiestos fuente y las limitaciones científicas de las mediciones. No contiene datos personales de destinatarios.
+
+Los 81 informes originales en español emitidos del 1 de septiembre al 19 de noviembre de 2026 permanecen sin cambios como línea base histórica.
 
 ---
 
