@@ -36,6 +36,39 @@ AQUABOT MAX ECOSYSTEM integra el monitoreo fisicoquímico de la calidad del agua
 
 ---
 
+## 🚀 What's New | Novedades
+
+🇬🇧 **Follow the evolution of AQUABOT MAX ECOSYSTEM.**
+
+Explore the latest technological developments, scientific integrations,
+environmental monitoring improvements, and new capabilities of our ecosystem.
+
+🇲🇽 **Sigue la evolución de AQUABOT MAX ECOSYSTEM.**
+
+Conoce los avances tecnológicos, las integraciones científicas,
+las mejoras en el monitoreo ambiental y las nuevas funcionalidades
+de nuestro ecosistema.
+
+### 📅 Latest Update | Última actualización
+
+| Date / Fecha | Update / Actualización | Status / Estado |
+|---|---|---|
+| 2026-11-22 | [🛰️ Daily Satellite Reports on GitHub / Informes satelitales diarios en GitHub](updates/2026/2026-11-22-informes-automaticos.md) | ✅ Integrated / Integrado |
+
+### 📖 Explore All Updates | Explorar todas las novedades
+
+**[🚀 View What's New / Ver todas las actualizaciones →](updates/README.md)**
+
+Discover the complete history of improvements, innovations,
+and technological developments of AQUABOT MAX ECOSYSTEM.
+
+Consulta el historial completo de mejoras, innovaciones
+y desarrollos tecnológicos de AQUABOT MAX ECOSYSTEM.
+
+---
+
+---
+
 ## Platform Development Status | Estado de desarrollo de la plataforma
 
 ### English
