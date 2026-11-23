@@ -164,6 +164,164 @@ El ecosistema incluye procesos de generación automatizada de resúmenes ambient
 
 La documentación pública utilizará ejemplos autorizados, eliminando información sensible.
 
+
+### 6.1. Controlled WhatsApp Report Subscriptions | Suscripción autorizada a informes por WhatsApp
+
+**Implementation update / Actualización de implementación:** 2026-11-23
+
+**Status / Estado:** ✅ Operational / Operativo (project-reported verification / verificación reportada por el proyecto).
+
+#### English
+
+The environmental reporting architecture incorporates a controlled subscription workflow that connects public registration, administrative authorization, personal data protection, auditability, and automated daily report distribution through WhatsApp.
+
+Submitting a registration request does not automatically authorize report delivery. Each request must undergo administrative review before the applicant can be incorporated into the authorized distribution system.
+
+#### Español
+
+La arquitectura de informes ambientales incorpora un procedimiento controlado de suscripción que integra el registro público, la autorización administrativa, la protección de datos personales, la trazabilidad y la distribución automatizada de informes diarios mediante WhatsApp.
+
+El envío de una solicitud de registro no autoriza automáticamente la recepción de informes. Cada solicitud debe pasar por una revisión administrativa antes de incorporar al solicitante al sistema de distribución autorizado.
+
+#### 6.1.1. Logical Architecture | Arquitectura lógica
+
+```mermaid
+flowchart TD
+    A["Applicant / Solicitante"]
+    B["Public registration form / Formulario público"]
+    C["Server-side validation and consent / Validación y consentimiento"]
+    D["Subscription registry / Registro de solicitudes"]
+    E["Pending request and tracking reference / Solicitud pendiente y folio"]
+    F["Protected administrative panel / Panel administrativo protegido"]
+    G{"Administrative decision / Decisión administrativa"}
+    H["Approved / Aprobada"]
+    I["Rejected / Rechazada"]
+    J["Suspended / Suspendida"]
+    K["Configuration backup / Respaldo de configuración"]
+    L["Controlled recipient synchronization / Sincronización controlada"]
+    M["Authorized distribution records / Registros de distribución autorizada"]
+    N["Automated daily PDF reports / Informes PDF diarios automatizados"]
+    O["WhatsApp distribution / Distribución por WhatsApp"]
+    P["Authorized recipients / Destinatarios autorizados"]
+    Q["Audit trail / Registro de auditoría"]
+    R["Public status consultation / Consulta pública de estado"]
+    S["Controlled recipient removal / Retiro controlado de destinatario"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G -->|Approve / Aprobar| H
+    G -->|Reject / Rechazar| I
+    G -->|Suspend previously approved / Suspender previamente aprobada| J
+    H --> K
+    K --> L
+    L --> M
+    J --> S
+    S --> K
+    M --> O
+    N --> O
+    O --> P
+    D --> R
+    D -.-> Q
+    F -.-> Q
+    G -.-> Q
+    K -.-> Q
+    L -.-> Q
+    S -.-> Q
+
+    classDef publicLayer fill:#164e63,stroke:#22d3ee,color:#ffffff
+    classDef securityLayer fill:#713f12,stroke:#facc15,color:#ffffff
+    classDef approvedLayer fill:#14532d,stroke:#4ade80,color:#ffffff
+    classDef rejectedLayer fill:#7f1d1d,stroke:#f87171,color:#ffffff
+    classDef deliveryLayer fill:#1e3a8a,stroke:#60a5fa,color:#ffffff
+    classDef auditLayer fill:#581c87,stroke:#c084fc,color:#ffffff
+
+    class A,B,E,R publicLayer
+    class C,D,F,G,K,L,S securityLayer
+    class H,M,P approvedLayer
+    class I,J rejectedLayer
+    class N,O deliveryLayer
+    class Q auditLayer
+```
+
+*Conceptual architecture. Internal infrastructure, credentials, personal data, and private configuration details are intentionally excluded.*
+
+*Arquitectura conceptual. Se excluyen deliberadamente los detalles internos de infraestructura, credenciales, datos personales y configuraciones privadas.*
+
+#### 6.1.2. Architectural Components | Componentes arquitectónicos
+
+| Component / Componente | Responsibility / Responsabilidad |
+|---|---|
+| Public registration / Registro público | Collect subscription requests and explicit privacy consent / Recopilar solicitudes de suscripción y consentimiento explícito de privacidad |
+| Server-side validation / Validación del servidor | Validate submitted information and mitigate automated abuse / Validar la información recibida y mitigar abusos automatizados |
+| Subscription registry / Registro de solicitudes | Maintain request references, states, consent, and review information / Conservar folios, estados, consentimiento e información de revisión |
+| Public status consultation / Consulta pública de estado | Provide request status without exposing personal information / Proporcionar el estado de la solicitud sin exponer información personal |
+| Administrative authorization / Autorización administrativa | Review, approve, reject, or suspend eligible requests / Revisar, aprobar, rechazar o suspender solicitudes según corresponda |
+| Recipient synchronization / Sincronización de destinatarios | Integrate authorized recipients into the existing daily distribution system / Integrar destinatarios autorizados al sistema existente de distribución diaria |
+| Backup and recovery / Respaldo y recuperación | Protect distribution configurations against inconsistent modifications / Proteger las configuraciones de distribución frente a modificaciones inconsistentes |
+| Audit trail / Registro de auditoría | Preserve traceability of administrative actions and state changes / Conservar la trazabilidad de las acciones administrativas y cambios de estado |
+| Automated reporting / Informes automatizados | Generate daily environmental PDF reports / Generar informes ambientales diarios en PDF |
+| WhatsApp distribution / Distribución por WhatsApp | Deliver reports to authorized recipients through the existing automated workflow / Distribuir informes a destinatarios autorizados mediante el proceso automatizado existente |
+
+#### 6.1.3. Security and Data Protection | Seguridad y protección de datos
+
+- Server-side administrative authentication / Autenticación administrativa del lado del servidor.
+- Secure credential comparison / Comparación segura de credenciales.
+- Server-side input validation and request size restrictions / Validación de entradas y restricciones de tamaño de solicitudes del lado del servidor.
+- Rate limiting and honeypot protection / Limitación de frecuencia y protección mediante honeypot.
+- Hashed origin identifiers for abuse prevention / Identificadores de origen mediante hash para prevenir abusos.
+- Explicit privacy consent / Consentimiento explícito de privacidad.
+- Public status consultation without personal data disclosure / Consulta pública de estado sin divulgación de datos personales.
+- Administrative action traceability / Trazabilidad de acciones administrativas.
+- Administrative credentials excluded from public source code and documentation / Credenciales administrativas excluidas del código público y de la documentación.
+
+#### 6.1.4. Operational Reliability | Confiabilidad operativa
+
+**English**
+
+Recipient synchronization incorporates timestamped backups, temporary writes, safe replacement of distribution records, and coordinated recovery if either distribution record cannot be updated successfully.
+
+Suspension removes only recipients incorporated through the controlled subscription workflow. Existing historical or manually configured recipients are preserved.
+
+Approved and successfully synchronized recipients become eligible for the next scheduled daily distribution.
+
+**Español**
+
+La sincronización de destinatarios incorpora respaldos con marca temporal, escrituras temporales, reemplazo seguro de los registros de distribución y recuperación coordinada cuando alguno de los dos registros no puede actualizarse correctamente.
+
+La suspensión elimina únicamente a los destinatarios incorporados mediante el procedimiento controlado de suscripción. Se preservan los destinatarios históricos o configurados manualmente.
+
+Los destinatarios aprobados y sincronizados correctamente quedan habilitados para la siguiente distribución diaria programada.
+
+#### 6.1.5. Reported Verification | Verificación reportada
+
+| Verification / Verificación | Reported result / Resultado reportado |
+|---|---|
+| Public registration interface / Interfaz pública de registro | ✅ Operational / Operativa |
+| Protected administrative panel / Panel administrativo protegido | ✅ Verified / Verificado |
+| Unauthorized administrative access / Acceso administrativo no autorizado | HTTP 401 |
+| Incomplete registration request / Solicitud de registro incompleta | HTTP 400 |
+| Nonexistent tracking reference / Folio inexistente | HTTP 404 |
+| Authenticated administrative API / API administrativa autenticada | ✅ Correct response / Respuesta correcta |
+| Automated tests / Pruebas automatizadas | ✅ 5/5 passed / Aprobadas |
+| Existing recipients preserved / Destinatarios existentes preservados | ✅ 10/10 |
+| Daily distribution configuration / Configuración de distribución diaria | ✅ Enabled and validated / Habilitada y validada |
+
+**Verification scope / Alcance de la verificación:**
+
+These results were reported by the project. No fictitious production subscriptions were created. Independent reproduction and complete end-to-end production delivery verification for a newly approved subscriber are not established by this documentation.
+
+Estos resultados fueron reportados por el proyecto. No se crearon suscripciones ficticias en producción. Esta documentación no acredita una reproducción independiente ni una verificación integral de entrega en producción a un nuevo suscriptor aprobado.
+
+#### 6.1.6. Related Documentation | Documentación relacionada
+
+- [Reports Module / Módulo Reportes](docs/platform-modules/reports/README.md)
+- [November 23, 2026 Update / Actualización del 23 de noviembre de 2026](updates/2026/2026-11-23-whatsapp-report-subscriptions.md)
+- [Changelog / Historial de cambios](CHANGELOG.md#2026-11-23-whatsapp-report-subscriptions)
+- [What's New / Novedades](updates/README.md)
 ---
 
 ## 7. Security & Intellectual Property
