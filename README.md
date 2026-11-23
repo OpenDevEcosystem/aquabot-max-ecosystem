@@ -48,12 +48,11 @@ A continuación se presentan las cinco actualizaciones documentadas más recient
 
 | Date / Fecha | Type / Tipo | Update / Actualización | Status / Estado | Details / Detalles |
 |---|---|---|---|---|
+| 2026-11-23 | ✨ New / Nuevo · 💻 Software | Official Android monitoring application / Aplicación Android oficial de monitoreo | ✅ Public beta / Beta pública | [Download / Descargar](downloads/android/README.md) |
 | 2026-11-23 | ✨ New / Nuevo · 🤖 Automation / Automatización | Controlled WhatsApp environmental report subscriptions / Suscripción autorizada a informes ambientales por WhatsApp | ✅ Operational / Operativo | [Read more / Ver detalles](updates/2026/2026-11-23-whatsapp-report-subscriptions.md) |
 | 2026-11-22 | 🛠 Fixed / Corregido · 🔬 Scientific validation / Validación científica | Regional marine SST display geometry / Geometría de SST marina regional | 🧪 In validation / En validación | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-marine-sst) |
 | 2026-11-22 | 🚀 Improved / Mejorado · 📚 Documentation / Documentación | Bilingual What's New navigation / Navegación bilingüe de novedades | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-whats-new) |
 | 2026-11-22 | ✨ New / Nuevo · 📚 Documentation / Documentación | Public archive of bilingual environmental reports / Archivo público de informes ambientales bilingües | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-reports) |
-| 2026-11-20 | 📚 Documentation / Documentación | AQUABOT ACADEMY bilingual channel links / Enlaces a canales bilingües | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-20-academy) |
-| 2026-11-20 | 📚 Documentation / Documentación | Mathematical models and signal analysis documentation / Documentación de modelos matemáticos y análisis de señales | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-20-models) |
 
 **Important / Importante:** Operational documentation does not imply that every associated scientific model or platform feature has been implemented or validated.
 
@@ -64,6 +63,7 @@ La publicación operativa de documentación no significa que todos los modelos c
 - [📋 Changelog | Historial completo de cambios](CHANGELOG.md)
 - [🗺️ Roadmap | Hoja de ruta](ROADMAP.md)
 - [🚀 Updates | Archivo de novedades](updates/README.md)
+- [📱 Android download | Descarga Android](downloads/android/README.md)
 - [🧩 Platform Modules | Módulos de la plataforma](docs/platform-modules/README.md)
 - [🔬 Scientific Documentation | Documentación científica](docs/MATHEMATICAL_MODELS_AND_SIGNAL_ANALYSIS.md)
 

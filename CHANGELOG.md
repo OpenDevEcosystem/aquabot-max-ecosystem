@@ -10,6 +10,23 @@ Public, bilingual history of **AQUABOT MAX ECOSYSTEM**, including software, inte
 
 ---
 
+## 2026-11-23 — ✨ New | Nuevo; 💻 Software
+<a id="2026-11-23-android"></a>
+
+**Update / Actualización:** Official Android monitoring application / Aplicación Android oficial de monitoreo.
+
+**Status / Estado:** ✅ Public beta | Beta pública.
+
+**Version / Versión:** `0.1.0-beta.1`.
+
+**Modules / Módulos:** Mobile client and monitoring website / Cliente móvil y web de monitoreo.
+
+- **Description / Descripción:** Published the signed Android application binary for mobile access to the monitoring platform. / Se publicó el binario firmado de la aplicación Android para acceder desde dispositivos móviles a la plataforma de monitoreo.
+- **Visible result / Resultado visible:** The signed APK can be downloaded directly from GitHub and installed on Android 8.0 or later. / El APK firmado puede descargarse directamente desde GitHub e instalarse en Android 8.0 o posterior.
+- **Validation / Validación:** The release APK was verified with signature schemes v2 and v3 and exercised on an Android 16 emulator before publication. / El APK de publicación se verificó con los esquemas de firma v2 y v3 y se probó en un emulador Android 16 antes de su publicación.
+- **Distribution / Distribución:** Public binary distribution only; Android source code is retained privately. / Solo distribución pública del binario; el código fuente Android se conserva de forma privada.
+- **Evidence / Evidencias:** [Signed APK and checksum / APK firmado y suma](downloads/android/README.md), [dated update / actualización](updates/2026/2026-11-23-android-app.md).
+
 ## 2026-11-23 — ✨ New | Nuevo; 🔐 Security | Seguridad
 <a id="2026-11-23-whatsapp-report-subscriptions"></a>
 
