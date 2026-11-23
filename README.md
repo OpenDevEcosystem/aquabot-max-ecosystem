@@ -34,42 +34,39 @@ AQUABOT MAX ECOSYSTEM integra el monitoreo fisicoquímico de la calidad del agua
 
 ---
 
----
-
 ## 🚀 What's New | Novedades
 
-🇬🇧 **Follow the evolution of AQUABOT MAX ECOSYSTEM.**
+🇬🇧 **EN:** Follow the scientific, technological and environmental evolution of AQUABOT MAX ECOSYSTEM.
 
-Explore the latest technological developments, scientific integrations,
-environmental monitoring improvements, and new capabilities of our ecosystem.
+🇲🇽 **ES:** Conoce la evolución científica, tecnológica y ambiental de AQUABOT MAX ECOSYSTEM.
 
-🇲🇽 **Sigue la evolución de AQUABOT MAX ECOSYSTEM.**
+The five latest documented updates are listed below. Status refers to the specific change, not necessarily to the entire platform.
 
-Conoce los avances tecnológicos, las integraciones científicas,
-las mejoras en el monitoreo ambiental y las nuevas funcionalidades
-de nuestro ecosistema.
+A continuación se presentan las cinco actualizaciones documentadas más recientes. El estado corresponde al cambio específico, no necesariamente a toda la plataforma.
 
-### 📅 Latest Update | Última actualización
+### 📅 Latest Updates | Últimas novedades
 
-| Date / Fecha | Update / Actualización | Status / Estado |
-|---|---|---|
-| 2026-11-22 | [🛰️ Daily Satellite Reports on GitHub / Informes satelitales diarios en GitHub](updates/2026/2026-11-22-informes-automaticos.md) | ✅ Integrated / Integrado |
+| Date / Fecha | Type / Tipo | Update / Actualización | Status / Estado | Details / Detalles |
+|---|---|---|---|---|
+| 2026-11-22 | 🛠 Fixed / Corregido · 🔬 Scientific validation / Validación científica | Regional marine SST display geometry / Geometría de SST marina regional | 🧪 In validation / En validación | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-marine-sst) |
+| 2026-11-22 | 🚀 Improved / Mejorado · 📚 Documentation / Documentación | Bilingual What's New navigation / Navegación bilingüe de novedades | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-whats-new) |
+| 2026-11-22 | ✨ New / Nuevo · 📚 Documentation / Documentación | Public archive of bilingual environmental reports / Archivo público de informes ambientales bilingües | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-reports) |
+| 2026-11-20 | 📚 Documentation / Documentación | AQUABOT ACADEMY bilingual channel links / Enlaces a canales bilingües | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-20-academy) |
+| 2026-11-20 | 📚 Documentation / Documentación | Mathematical models and signal analysis documentation / Documentación de modelos matemáticos y análisis de señales | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-20-models) |
 
-### 📖 Explore All Updates | Explorar todas las novedades
+**Important / Importante:** Operational documentation does not imply that every associated scientific model or platform feature has been implemented or validated.
 
-**[🚀 View What's New / Ver todas las actualizaciones →](updates/README.md)**
+La publicación operativa de documentación no significa que todos los modelos científicos o módulos relacionados estén implementados o validados.
 
-Discover the complete history of improvements, innovations,
-and technological developments of AQUABOT MAX ECOSYSTEM.
+### 📚 Explore the Ecosystem | Explorar el ecosistema
 
-Consulta el historial completo de mejoras, innovaciones
-y desarrollos tecnológicos de AQUABOT MAX ECOSYSTEM.
+- [📋 Changelog | Historial completo de cambios](CHANGELOG.md)
+- [🗺️ Roadmap | Hoja de ruta](ROADMAP.md)
+- [🚀 Updates | Archivo de novedades](updates/README.md)
+- [🧩 Platform Modules | Módulos de la plataforma](docs/platform-modules/README.md)
+- [🔬 Scientific Documentation | Documentación científica](docs/MATHEMATICAL_MODELS_AND_SIGNAL_ANALYSIS.md)
 
 ---
-
----
-
-## Platform Development Status | Estado de desarrollo de la plataforma
 
 ### English
 
