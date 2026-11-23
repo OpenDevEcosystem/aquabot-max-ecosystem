@@ -48,6 +48,7 @@ A continuación se presentan las cinco actualizaciones documentadas más recient
 
 | Date / Fecha | Type / Tipo | Update / Actualización | Status / Estado | Details / Detalles |
 |---|---|---|---|---|
+| 2026-11-23 | ✨ New / Nuevo · 🤖 Automation / Automatización | Controlled WhatsApp environmental report subscriptions / Suscripción autorizada a informes ambientales por WhatsApp | ✅ Operational / Operativo | [Read more / Ver detalles](updates/2026/2026-11-23-whatsapp-report-subscriptions.md) |
 | 2026-11-22 | 🛠 Fixed / Corregido · 🔬 Scientific validation / Validación científica | Regional marine SST display geometry / Geometría de SST marina regional | 🧪 In validation / En validación | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-marine-sst) |
 | 2026-11-22 | 🚀 Improved / Mejorado · 📚 Documentation / Documentación | Bilingual What's New navigation / Navegación bilingüe de novedades | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-whats-new) |
 | 2026-11-22 | ✨ New / Nuevo · 📚 Documentation / Documentación | Public archive of bilingual environmental reports / Archivo público de informes ambientales bilingües | ✅ Operational / Operativo | [Read more / Ver detalles](CHANGELOG.md#2026-11-22-reports) |

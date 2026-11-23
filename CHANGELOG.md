@@ -10,6 +10,70 @@ Public, bilingual history of **AQUABOT MAX ECOSYSTEM**, including software, inte
 
 ---
 
+## 2026-11-23 — ✨ New | Nuevo; 🔐 Security | Seguridad
+<a id="2026-11-23-whatsapp-report-subscriptions"></a>
+
+**Update / Actualización:** Controlled WhatsApp environmental report subscriptions / Suscripción autorizada a informes ambientales por WhatsApp.
+
+**Status / Estado:** ✅ Operational / Operativo (according to project-reported operational verification / según la verificación operativa reportada por el proyecto).
+
+**Version / Versión:** Not assigned / No asignada.
+
+**Modules / Módulos:** Environmental reporting, automation, administrative management, security and data protection / Reportes ambientales, automatización, gestión administrativa, seguridad y protección de datos.
+
+- **Description / Descripción:** Implementation of a controlled registration and authorization workflow for receiving automated daily environmental reports through WhatsApp. / Implementación de un procedimiento controlado de registro y autorización para recibir informes ambientales diarios automatizados mediante WhatsApp.
+
+- **Reason / Motivo:** Expand access to environmental information while maintaining administrative control, privacy, traceability, and operational reliability. / Ampliar el acceso a la información ambiental manteniendo el control administrativo, la privacidad, la trazabilidad y la confiabilidad operativa.
+
+- **Added / Agregado:**
+  - Public registration form in the Reports module. / Formulario público de registro en el módulo Reportes.
+  - Unique tracking reference and public status consultation. / Folio único y consulta pública del estado de la solicitud.
+  - Protected administrative review interface. / Interfaz administrativa protegida.
+  - Pending, approved, rejected, and suspended request states. / Estados pendiente, aprobada, rechazada y suspendida.
+  - Automatic synchronization of authorized recipients with the daily distribution system. / Sincronización automática de destinatarios autorizados con el sistema de distribución diaria.
+
+- **Security / Seguridad:**
+  - Server-side administrative authentication and input validation. / Autenticación administrativa y validación de datos del lado del servidor.
+  - Request size restrictions, rate limiting, and honeypot protection. / Restricciones de tamaño, limitación de frecuencia y protección honeypot.
+  - Administrative credentials excluded from the public frontend. / Credenciales administrativas excluidas del frontend público.
+
+- **Data protection / Protección de datos:**
+  - Explicit privacy notice consent. / Consentimiento explícito del aviso de privacidad.
+  - Public status consultation without personal information exposure. / Consulta pública del estado sin exposición de información personal.
+  - Hashed IP information for abuse prevention. / Uso de hashes de direcciones IP para prevenir abusos.
+  - Administrative audit records and traceable status transitions. / Registros de auditoría administrativa y cambios de estado trazables.
+
+- **Reliability / Confiabilidad:**
+  - Timestamped configuration backups before modifications. / Respaldos de configuración con fecha y hora antes de realizar modificaciones.
+  - Safe replacement and coordinated recovery of distribution records. / Reemplazo seguro y recuperación coordinada de los registros de distribución.
+  - Preservation of historical and manually configured recipients. / Conservación de destinatarios históricos y configurados manualmente.
+  - Suspension restricted to recipients incorporated through the new registration workflow. / Suspensión limitada a destinatarios incorporados mediante el nuevo procedimiento de registro.
+
+- **Visible result / Resultado visible:** Interested users can submit a subscription request and consult its status using a tracking reference. Approved recipients become eligible for subsequent scheduled environmental report distribution. / Las personas interesadas pueden presentar una solicitud de suscripción y consultar su estado mediante un folio. Los destinatarios aprobados quedan habilitados para las siguientes distribuciones programadas de informes ambientales.
+
+- **Verification / Verificación:** According to the project-reported verification: / De acuerdo con la verificación reportada por el proyecto:
+  - Public registration form operational. / Formulario público operativo.
+  - Registration section visible in Reports. / Sección de registro visible en Reportes.
+  - Protected administrative interface. / Interfaz administrativa protegida.
+  - Unauthorized administrative access: HTTP 401. / Acceso administrativo no autorizado: HTTP 401.
+  - Incomplete registration request: HTTP 400. / Solicitud de registro incompleta: HTTP 400.
+  - Nonexistent tracking reference: HTTP 404. / Folio inexistente: HTTP 404.
+  - Authenticated administrative API responding correctly. / API administrativa autenticada respondiendo correctamente.
+  - Five automated tests passed. / Cinco pruebas automatizadas aprobadas.
+  - Ten existing recipients preserved. / Diez destinatarios existentes conservados.
+  - Daily distribution enabled and configuration validated. / Distribución diaria habilitada y configuración validada.
+  - No fictitious production registration requests created. / No se generaron solicitudes ficticias en producción.
+
+- **Known limitations / Limitaciones conocidas:** Subscription requests require administrative approval. Delivery depends on messaging infrastructure availability. End-to-end delivery to a newly approved production recipient has not been independently verified. / Las solicitudes de suscripción requieren aprobación administrativa. La entrega depende de la disponibilidad de la infraestructura de mensajería. La entrega de extremo a extremo a un nuevo destinatario aprobado en producción no ha sido verificada independientemente.
+
+- **Evidence / Evidencias:** Project-supplied technical and operational verification dated 2026-11-23. / Registro técnico y verificación operativa aportados por el proyecto con fecha 2026-11-23.
+  - [Detailed update / Actualización detallada](updates/2026/2026-11-23-whatsapp-report-subscriptions.md)
+  - [Reports module / Módulo Reportes](docs/platform-modules/reports/README.md)
+  - [System architecture / Arquitectura del sistema](SYSTEM_ARCHITECTURE.md)
+
+- **Commit / Commit de implementación:** Not publicly verified / No verificado públicamente.
+
+---
 ## 2026-11-22 — 🛠 Fixed | Corregido; 🔬 Scientific validation | Validación científica
 <a id="2026-11-22-marine-sst"></a>
 
