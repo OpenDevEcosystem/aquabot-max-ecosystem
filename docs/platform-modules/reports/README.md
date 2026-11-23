@@ -889,5 +889,235 @@ La versión actual no mantiene un historial documental permanente de informes en
 ---
 
 
-**AQUABOT MAX ECOSYSTEM**  
+## 25. Controlled WhatsApp Report Subscriptions | Suscripción autorizada a informes por WhatsApp
+
+<a id="whatsapp-report-subscriptions"></a>
+
+**Implementation update / Actualización de implementación:** 2026-11-23
+
+**Status / Estado:** ✅ Operational / Operativo (project-reported verification / verificación reportada por el proyecto).
+
+### 25.1. Purpose | Propósito
+
+#### English
+
+The Reports module incorporates a controlled registration and authorization workflow for receiving automated daily environmental reports through WhatsApp.
+
+This functionality facilitates access to environmental information for academic institutions, researchers, government agencies, environmental organizations, local communities, and other interested stakeholders.
+
+Registration does not automatically authorize report delivery. Each request requires administrative review and approval.
+
+#### Español
+
+El módulo Reportes incorpora un procedimiento controlado de registro y autorización para recibir informes ambientales diarios automatizados mediante WhatsApp.
+
+Esta funcionalidad facilita el acceso a la información ambiental para instituciones académicas, investigadores, dependencias gubernamentales, organizaciones ambientales, comunidades locales y otros sectores interesados.
+
+El registro no autoriza automáticamente el envío de informes. Cada solicitud requiere revisión y aprobación administrativa.
+
+### 25.2. Public Registration Form | Formulario público de registro
+
+The public Reports interface includes a dedicated registration section. / La interfaz pública del módulo Reportes incluye una sección específica de registro.
+
+| Field / Campo | Purpose / Propósito |
+|---|---|
+| Full name / Nombre completo | Applicant identification / Identificación del solicitante |
+| Organization or institution / Organización o institución | Institutional context / Contexto institucional |
+| Position, profession, or activity / Cargo, profesión o actividad | Professional context / Contexto profesional |
+| Email / Correo electrónico | Contact information / Información de contacto |
+| WhatsApp number / Número de WhatsApp | Report distribution with country code / Distribución de informes con código de país |
+| Municipality or city / Municipio o ciudad | Geographic context / Contexto geográfico |
+| State or region / Estado o región | Regional context / Contexto regional |
+| Country / País | National context / Contexto nacional |
+| Main purpose / Propósito principal | Reason for requesting reports / Motivo de la solicitud |
+| Intended use / Uso previsto | Description of the intended use of information / Descripción del uso previsto de la información |
+| Lagoons or topics of interest / Lagunas o temas de interés | Environmental interests / Intereses ambientales |
+| Privacy consent / Consentimiento de privacidad | Explicit acceptance of the summarized privacy notice / Aceptación explícita del aviso de privacidad resumido |
+
+### 25.3. Subscription States | Estados de suscripción
+
+| State / Estado | Description / Descripción |
+|---|---|
+| Pending / Pendiente | Awaiting administrative review / En espera de revisión administrativa |
+| Approved / Aprobada | Authorized for scheduled report distribution / Autorizada para la distribución programada de informes |
+| Rejected / Rechazada | Reviewed but not authorized / Revisada y no autorizada |
+| Suspended / Suspendida | Previously approved subscription deactivated / Suscripción previamente aprobada y desactivada |
+
+### 25.4. Tracking Reference | Folio de seguimiento
+
+#### English
+
+Each submitted request receives a unique tracking reference that allows the applicant to consult its current status.
+
+The public consultation mechanism does not expose personal information or internal administrative notes.
+
+#### Español
+
+Cada solicitud registrada recibe un folio único que permite al solicitante consultar su estado actual.
+
+El mecanismo público de consulta no expone información personal ni observaciones administrativas internas.
+
+### 25.5. Administrative Authorization | Autorización administrativa
+
+#### English
+
+A separate protected administrative interface enables authorized personnel to:
+
+- Review submitted requests.
+- Evaluate applicant identity, institutional context, and intended use.
+- Approve or reject pending requests.
+- Suspend previously approved subscriptions.
+- Record internal administrative observations.
+- Maintain traceability of administrative decisions.
+
+#### Español
+
+Una interfaz administrativa independiente y protegida permite al personal autorizado:
+
+- Revisar las solicitudes recibidas.
+- Evaluar la identidad, el contexto institucional y el uso previsto.
+- Aprobar o rechazar solicitudes pendientes.
+- Suspender suscripciones previamente aprobadas.
+- Registrar observaciones administrativas internas.
+- Mantener la trazabilidad de las decisiones administrativas.
+
+### 25.6. Operational Workflow | Flujo operativo
+
+1. Public registration / Registro público.
+2. Server-side validation / Validación del lado del servidor.
+3. Request registration and tracking reference generation / Registro de solicitud y generación de folio.
+4. Pending administrative review / Revisión administrativa pendiente.
+5. Approval or rejection / Aprobación o rechazo.
+6. Synchronization of approved recipients / Sincronización de destinatarios aprobados.
+7. Eligibility for the next scheduled daily report distribution / Habilitación para la siguiente distribución diaria programada.
+
+### 25.7. Integration with Daily Reports | Integración con informes diarios
+
+#### English
+
+Approved recipients are synchronized with the existing automated daily environmental report distribution infrastructure.
+
+The subscription workflow manages recipient authorization independently of the environmental report generation process.
+
+The existing daily report generation and distribution schedule remains unchanged.
+
+#### Español
+
+Los destinatarios aprobados se sincronizan con la infraestructura existente de distribución automatizada de informes ambientales diarios.
+
+El procedimiento de suscripción administra la autorización de destinatarios independientemente del proceso de generación de informes ambientales.
+
+La programación existente de generación y distribución diaria de informes permanece sin cambios.
+
+### 25.8. Reliability and Recovery | Confiabilidad y recuperación
+
+#### English
+
+The recipient synchronization mechanism incorporates:
+
+- Timestamped configuration backups before modifications.
+- Temporary writes and safe replacement of both distribution records.
+- Coordinated restoration of both records if either update fails.
+- Preservation of historical and manually configured recipients.
+- Suspension restricted to recipients incorporated through the new registration workflow.
+
+#### Español
+
+El mecanismo de sincronización de destinatarios incorpora:
+
+- Respaldos de configuración con fecha y hora antes de realizar modificaciones.
+- Escrituras temporales y reemplazo seguro de ambos registros de distribución.
+- Restauración coordinada de ambos registros si alguna actualización falla.
+- Conservación de destinatarios históricos y configurados manualmente.
+- Suspensión limitada a destinatarios incorporados mediante el nuevo procedimiento de registro.
+
+### 25.9. Security and Privacy | Seguridad y privacidad
+
+| Control / Control | Description / Descripción |
+|---|---|
+| Administrative authentication / Autenticación administrativa | Server-side access control / Control de acceso del lado del servidor |
+| Credential protection / Protección de credenciales | High-entropy credentials and secure comparison / Credenciales de alta entropía y comparación segura |
+| Input validation / Validación de entradas | Server-side field validation / Validación de campos del lado del servidor |
+| Request limits / Límites de solicitudes | Request size restrictions / Restricciones de tamaño de solicitudes |
+| Telephone validation / Validación telefónica | International country code validation / Validación del código internacional de país |
+| Honeypot | Automated submission protection / Protección contra solicitudes automatizadas |
+| Rate limiting / Limitación de frecuencia | Per-origin abuse prevention / Prevención de abusos por origen |
+| IP hashing / Hash de IP | Hashed origin information instead of raw IP addresses / Información de origen mediante hash en lugar de direcciones IP originales |
+| Privacy consent / Consentimiento de privacidad | Explicit acceptance of the privacy notice / Aceptación explícita del aviso de privacidad |
+| Public status consultation / Consulta pública de estado | No personal information exposure / Sin exposición de información personal |
+| Administrative session / Sesión administrativa | Temporary credential storage during panel use / Almacenamiento temporal de credenciales durante el uso del panel |
+
+Administrative credentials are not embedded in the public frontend. / Las credenciales administrativas no están incorporadas en el frontend público.
+
+Personal information, internal configurations, credentials, and administrative records are excluded from public repository documentation. / La información personal, configuraciones internas, credenciales y registros administrativos se excluyen de la documentación pública del repositorio.
+
+### 25.10. Audit and Traceability | Auditoría y trazabilidad
+
+The administrative workflow maintains traceable records of: / El procedimiento administrativo mantiene registros trazables de:
+
+- Registration requests / Solicitudes de registro.
+- Privacy consent timestamps / Fecha y hora del consentimiento de privacidad.
+- Request status / Estado de la solicitud.
+- Administrative review dates / Fechas de revisión administrativa.
+- Responsible administrator / Administrador responsable.
+- Internal administrative notes / Observaciones administrativas internas.
+- Status transitions / Cambios de estado.
+- Associated configuration backups / Respaldos de configuración asociados.
+
+### 25.11. Error Handling | Gestión de errores
+
+| HTTP status / Estado HTTP | Condition / Condición |
+|---|---|
+| 400 | Invalid or incomplete registration request / Solicitud de registro inválida o incompleta |
+| 401 | Unauthorized administrative access / Acceso administrativo no autorizado |
+| 404 | Tracking reference not found / Folio no encontrado |
+
+### 25.12. Operational Verification | Verificación operativa
+
+The following results were reported by the project on November 23, 2026. / Los siguientes resultados fueron reportados por el proyecto el 23 de noviembre de 2026.
+
+| Verification / Verificación | Result / Resultado |
+|---|---|
+| Public registration form / Formulario público de registro | ✅ Passed / Correcto |
+| Registration section visibility / Visibilidad de la sección de registro | ✅ Passed / Correcto |
+| Protected administrative interface / Interfaz administrativa protegida | ✅ Passed / Correcto |
+| Unauthorized administrative request / Solicitud administrativa no autorizada | HTTP 401 |
+| Incomplete registration request / Solicitud de registro incompleta | HTTP 400 |
+| Nonexistent tracking reference / Folio inexistente | HTTP 404 |
+| Authenticated administrative API / API administrativa autenticada | ✅ Passed / Correcto |
+| Automated tests / Pruebas automatizadas | 5 passed / 5 aprobadas |
+| Existing recipients preserved / Destinatarios existentes conservados | 10 |
+| Daily distribution enabled / Distribución diaria habilitada | ✅ Confirmed / Confirmado |
+| Distribution configuration validation / Validación de configuración de distribución | ✅ Passed / Correcto |
+| Fictitious production requests / Solicitudes ficticias en producción | None created / Ninguna generada |
+
+### 25.13. Scope and Known Limitations | Alcance y limitaciones conocidas
+
+#### English
+
+- Registration does not guarantee approval.
+- Report delivery depends on messaging infrastructure availability.
+- End-to-end delivery to a newly approved production recipient has not been independently verified for this documentation update.
+- The subscription registry is separate from the on-demand report generation workflow documented in previous sections.
+- The historical limitation concerning permanent server-side storage of on-demand report documents does not refer to the automated daily report archive or the subscription registry.
+- This functionality manages environmental report subscriptions and is not a citizen incident reporting system.
+
+#### Español
+
+- El registro no garantiza la aprobación.
+- La entrega de informes depende de la disponibilidad de la infraestructura de mensajería.
+- La entrega de extremo a extremo a un nuevo destinatario aprobado en producción no ha sido verificada independientemente para esta actualización documental.
+- El registro de suscripciones es independiente del procedimiento de generación de informes bajo demanda documentado en las secciones anteriores.
+- La limitación histórica relativa al almacenamiento permanente de documentos generados bajo demanda no se refiere al archivo de informes diarios automatizados ni al registro de suscripciones.
+- Esta funcionalidad administra suscripciones a informes ambientales y no constituye un sistema de denuncias o reportes ciudadanos.
+
+### 25.14. Related Documentation | Documentación relacionada
+
+- [November 23, 2026 Update / Actualización del 23 de noviembre de 2026](../../../updates/2026/2026-11-23-whatsapp-report-subscriptions.md)
+- [Changelog / Historial de cambios](../../../CHANGELOG.md#2026-11-23-whatsapp-report-subscriptions)
+- [System Architecture / Arquitectura del sistema](../../../SYSTEM_ARCHITECTURE.md)
+- [What's New / Novedades](../../../updates/README.md)
+
+---
+ **AQUABOT MAX ECOSYSTEM**  
 **ODEVE — Open Development Ecosystem**
