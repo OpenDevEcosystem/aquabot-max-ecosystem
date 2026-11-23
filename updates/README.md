@@ -54,6 +54,7 @@ Each update will include a publication date, a description of the improvement, a
 
 | Date / Fecha | Update / Actualización | Category / Categoría | Status / Estado |
 |---|---|---|---|
+| 2026-11-23 | 📲 [WhatsApp Environmental Report Subscriptions / Suscripción a informes ambientales por WhatsApp](2026/2026-11-23-whatsapp-report-subscriptions.md) | Automation / Automatización | ✅ Operational / Operativo |
 | 2026-11-22 | [🛰️ Daily Satellite Reports Integration / Integración de informes satelitales diarios](2026/2026-11-22-informes-automaticos.md) | Automation / Automatización | ✅ Integrated / Integrado |
 
 ---
@@ -96,7 +97,7 @@ This record provides access to the historical evolution of the ecosystem, its ne
 
 ### Latest Update | Última actualización
 
-[🛰️ November 22, 2026 — Daily Satellite Reports Integration / Integración de informes satelitales diarios](2026/2026-11-22-informes-automaticos.md)
+[📲 November 23, 2026 — WhatsApp Environmental Report Subscriptions / Suscripción a informes ambientales por WhatsApp](2026/2026-11-23-whatsapp-report-subscriptions.md)
 
 ---
 
