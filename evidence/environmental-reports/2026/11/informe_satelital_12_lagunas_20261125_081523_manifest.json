@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261125_081523",
+  "report_date": "2026-11-25",
+  "generated_at_utc": "2026-11-25T14:15:23.565670+00:00",
+  "generated_at_local": "2026-11-25T08:15:23.565670-06:00",
+  "timezone": "America/Mexico_City",
+  "snapshot_sha256": "db0cf9a2e18dcd33edb3c95174b634fff2cade16b7504654e329f73131aa6716",
+  "reports": {
+    "es": {
+      "language": "es",
+      "filename": "informe_satelital_12_lagunas_20261125_081523_es.pdf",
+      "sha256": "0cd014f171027dc9ef00b38ca0891b1401eb9b7f4127b8afa6201a3f81d36e2e",
+      "size_bytes": 2790142,
+      "page_count": 15
+    },
+    "en": {
+      "language": "en",
+      "filename": "informe_satelital_12_lagunas_20261125_081523_en.pdf",
+      "sha256": "675231718d3aa6b01bc1f67d5ff61ea12abaf2fe356dd5f2e7bc3d2bb0e79a01",
+      "size_bytes": 2789033,
+      "page_count": 15
+    }
+  },
+  "source_manifest_files": [
+    "lst_map_batch_20261125_141130.json",
+    "satellite_oxygen_capacity_cube_20261125_141131_manifest.json",
+    "satellite_relative_water_level_cube_20261125_141523_selected.json"
+  ],
+  "actual_dissolved_oxygen_measured": false,
+  "absolute_water_level_measured": false,
+  "contains_recipient_personal_data": false
+}
